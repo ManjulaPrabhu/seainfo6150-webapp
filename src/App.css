@@ -4,26 +4,34 @@
 	width: 50%;
 	margin-left: 25%;
 }
-h2 {
+header {
 	margin: 1rem;
 	text-align: center;
 	font-weight: bold;
+	font-size: 1.5rem;
+}
+section {
+	margin: 1rem;
+	font-size: 1rem;
+}
+article {
+	margin: 2rem;
+	text-align: justify;
 }
 .article-image {
-	height: 50%;
-	width: 50%;
+	height: 100%;
+	width: 100%;
 }
 .image-section {
 	text-align: center;
 }
 .author-section {
-	margin-left: 2rem;
 	text-align: left;
+	font-weight: bold;
+	margin-left: 2rem;
+	font-size: 0.7rem;
 }
 .date-section {
-	margin-left: 2rem;
-}
-article {
-	margin: 2rem;
-	text-align: justify;
+	font-weight: normal;
+	display: block;
 }
