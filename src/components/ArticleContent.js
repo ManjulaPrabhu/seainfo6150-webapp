@@ -5,11 +5,13 @@ import '../App.css';
 const ArticleContent = ({}) => {
 	return (
 		<div>
-			<strong>
-				{' '}
-				The Statue of Liberty's original torch is getting a new home.{' '}
-			</strong>
-			<p>
+			<section>
+				<strong>
+					{' '}
+					The Statue of Liberty's original torch is getting a new home
+				</strong>
+			</section>
+			<section>
 				{' '}
 				Made of copper and gold so that it would shine bright, the first torch
 				took a beating from the weather and was replaced by a replica in 1984.
@@ -18,7 +20,7 @@ const ArticleContent = ({}) => {
 				Statue of Liberty Museum, which will open on Liberty Island in May 2019.
 				The torch was transported there by truck last week, along with a replica
 				model of Lady Liberty's face.{' '}
-			</p>
+			</section>
 			<blockquote>
 				{' '}
 				<em>
@@ -27,7 +29,7 @@ const ArticleContent = ({}) => {
 					"it is certainly the most important."{' '}
 				</em>{' '}
 			</blockquote>
-			<p>
+			<section>
 				{' '}
 				Not only is the Statue of Liberty the symbol of New York City, she is
 				also a UNESCO World Heritage site under the designation of "Outstanding
@@ -40,7 +42,7 @@ const ArticleContent = ({}) => {
 				formally unveiled her in 1886. Since then, the statue has served as a
 				symbol of hope and possibility for many people who entered the United
 				States as immigrants via neighboring Ellis Island.{' '}
-			</p>
+			</section>
 			<blockquote>
 				{' '}
 				<em>
@@ -53,7 +55,7 @@ const ArticleContent = ({}) => {
 					Lady Liberty one of her nicknames, "Mother of Exiles."{' '}
 				</em>{' '}
 			</blockquote>
-			<p>
+			<section>
 				{' '}
 				The most famous lines in the poem are:{' '}
 				<blockquote>
@@ -64,8 +66,8 @@ const ArticleContent = ({}) => {
 						breathe free."{' '}
 					</em>{' '}
 				</blockquote>
-			</p>
-			<p>
+			</section>
+			<section>
 				{' '}
 				In 2017, nearly 4.5 million people visited Liberty Island. When
 				completed, the Statue of Liberty Museum will be 26,000 square feet of
@@ -73,7 +75,7 @@ const ArticleContent = ({}) => {
 				in the US and around the world. The "inspiration gallery," which is
 				where the torch will live, will have floor-to-ceiling glass windows
 				looking out at Lower Manhattan, including the World Trade Center.{' '}
-			</p>
+			</section>
 		</div>
 	);
 };

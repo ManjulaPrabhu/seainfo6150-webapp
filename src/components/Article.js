@@ -4,15 +4,18 @@ import '../App.css';
 import * as articleImage from '../assets/article_image.jpg';
 const Article = ({ title, date, author, children }) => {
 	return (
-		<div className="article-section">
-			<h2> {title}</h2>
-			<div className="image-section">
-				<img className="article-image" src={articleImage} />{' '}
-			</div>
-			<div className="author-section"> By {author} </div>
-			<div className="date-section"> {date} </div>
-			<article> {children} </article>
-		</div>
+		<article className="article-section">
+			<header>
+				{title}
+				<figure className="image-section">
+					<img className="article-image" src={articleImage} />{' '}
+				</figure>
+				<p className="author-section">
+					By {author} <time className="date-section">{date}</time>
+				</p>
+			</header>
+			<section> {children} </section>
+		</article>
 	);
 };
 
