@@ -36,7 +36,7 @@ class ArticleTableRow extends React.Component {
 				<td>{this.props.title}</td>
 				<td> {this.props.author}</td>
 				<td>
-					<time> {this.props.date} </time>{' '}
+					<time datetime="2018"> {this.props.date} </time>{' '}
 				</td>
 				<td>{this.props.shortText}</td>
 			</tr>
