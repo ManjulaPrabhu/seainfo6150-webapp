@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ArticleTable from './components/ArticleTable';
+import ArticleList from './components/ArticleList';
 import articles from './data/articles.json';
 
 class App extends Component {
@@ -9,7 +9,7 @@ class App extends Component {
 	render() {
 		return (
 			<div className="App">
-				<ArticleTable articles={articles} />
+				<ArticleList articles={articles} />
 			</div>
 		);
 	}
