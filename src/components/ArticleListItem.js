@@ -6,7 +6,7 @@ import ArticleImage from './ArticleImage';
 const ArticleListItem = ({ title, date, year, author, shortText, image }) => (
 	<div className="article-list-item">
 		<li>
-			<div>
+			<div className="article-image-section">
 				<ArticleImage url={image} title={title} />
 			</div>
 			<div>
@@ -14,7 +14,10 @@ const ArticleListItem = ({ title, date, year, author, shortText, image }) => (
 				<div>{shortText}</div>
 				<div className="article-details">
 					<address> By: {author}</address>
-					<time datetime={year}> {date} </time>
+					<time className="article-date" datetime={year}>
+						{' '}
+						{date}{' '}
+					</time>
 				</div>
 			</div>
 		</li>
